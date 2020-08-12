@@ -9,7 +9,8 @@ export const dummyBeersData = [
       image_url: "https://images.punkapi.com/v2/keg.png",
       abv: 4.5,
       ibu: 60,
-    
+      target_fg: 1010,
+      target_og: 1044,
       ebc: 20,
       srm: 10,
       ph: 4.4,
