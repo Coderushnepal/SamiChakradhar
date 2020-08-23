@@ -3,6 +3,7 @@ import iziToast from "izitoast";
 iziToast.settings({
   timeout: 3000,
   resetOnHover: true,
+  progressBar:false,
 });
 
 export const success = ({ title, message }) => {

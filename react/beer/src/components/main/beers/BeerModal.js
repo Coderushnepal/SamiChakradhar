@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Modal, Spinner } from "../../commons";
+import { Modal, Spinner } from "../../common";
 import * as toast from "../../../utils/toast";
 import { fetchBeerById } from "../../../services/beerService";
 

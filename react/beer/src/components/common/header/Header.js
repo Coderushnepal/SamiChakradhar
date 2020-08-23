@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import PropTypes from "prop-types";
 import * as routes from "../../../constants/routes";
 
 class Header extends React.Component {
@@ -17,6 +17,12 @@ class Header extends React.Component {
       searchText: event.target.value,
     });
   };
+
+  search = (event) => {
+    event.preventDefault();
+    this.props.setSearchText(this.state.searchText);
+  };
+
   render() {
     return (
       <header className="header">
@@ -38,13 +44,13 @@ class Header extends React.Component {
           <div className="header__bottom">
             <h1>The Beer Bank</h1>
             <span>Find your favourite beer here</span>
-            <form>
+            <form onSubmit={this.search} >
               <input
                 type="search"
                 placeholder="Search beer name"
                 value={this.state.searchText}
                 onChange={this.handleTextChange}
-              ></input>
+              />
             </form>
           </div>
         </div>
@@ -52,5 +58,9 @@ class Header extends React.Component {
     );
   }
 }
+
+Header.propTypes = {
+  setSearchText: PropTypes.func,
+};
 
 export default Header;
