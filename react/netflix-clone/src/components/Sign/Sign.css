@@ -1,0 +1,28 @@
+.nav_avatar {
+   width: 150px;
+   padding-top: 240px;
+   padding-left: 50px;
+   transition: transform 450ms;
+   margin-left: 150px;
+}
+
+.nav_avatar:hover{
+    transform: scale(1.09);
+}
+.title {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 50px;
+}
+.user-name{
+  color: aliceblue;
+   clear: both;
+    padding-left: 220px;
+    padding-top: 20px;
+   display: table-cell;
+    margin-left: 150px;
+}
+
+.space {
+    padding-top: 500px;
+}

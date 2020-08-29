@@ -1,0 +1,21 @@
+.space {
+    padding-top: 500px;
+}
+.header {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+}
+.my-lg-1{
+    align-items: center;
+    padding-left: 660px;
+    padding-top: 50px;
+}
+
+.mr-sm-2 {
+   text-align: right;
+}
+.fa-plus{
+    color: dimgrey;
+    padding-right:10px ;
+}

@@ -1,16 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-
-/* .bg-light {
+/* 
+ .bg-light {
 
   background: white !important;
   border: 1px solid #d5d5d5;
-}
+} */
 
 .px-2,
 .mx-auto{
     color: white;
-} */
+} 
+.fa-bars{
+  color: white !important;
+  padding-left: 10px;
+}
+.fa-search{
+  color: white !important;
+
+}
 .navbar-brand {
   font-family: "Roboto", sans-serif;
 
@@ -18,7 +26,18 @@
   font-weight: 400;
   color: #030303;
 }
+.sign-in{
+  color: whitesmoke !important;
+  font-size: 25px;
+}
+.ml-auto{
+  color: #d5d5d5 !important;
+}
+
+
 .bg-light {
-  background: white !important;
-  border: 1px solid #d5d5d5;
+  /* background: white !important; */
+  background: transparent !important;
+  color: #d5d5d5 !important;
+  border:none;
 }
