@@ -1,0 +1,16 @@
+.form-inline{
+    padding-left: 400px;
+}
+
+.navbar {
+    padding-left: 100px;
+}
+.fa-bars{
+    color: white !important;
+    /* padding-left: 400px; */
+  }
+.admin{
+    /* padding-left: 100px; */
+    margin-left: 500px;
+    color: white !important;
+}
